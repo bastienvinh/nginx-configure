@@ -1,0 +1,42 @@
+{
+  "name": "nginx-configure",
+  "version": "0.0.1",
+  "description": "Manage and configure nginx instances",
+  "main": "index.js",
+  "repository": "https://github.com/bastienvinh/nginx-configure",
+  "author": "Bastien VINH <bvinh.dev@yahoo.com>",
+  "license": "GPL-3",
+  "engines": {
+    "deno": "^1.13.2",
+    "node": "^16.0.0",
+    "yarn": "^1.22.11",
+    "vscode": "^1.22.0"
+  },
+  "config": {
+    "clean": [
+      ".yarn/cache",
+      "dist",
+      "node_modules",
+      "yarn.lock"
+    ]
+  },
+  "os": [
+    "linux"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "contributors": [
+    "Bastien VINH"
+  ],
+  "type": "commonjs",
+  "readme": "README",
+  "keywords": [
+    "nginx",
+    "deno",
+    "typescript",
+    "custom",
+    "GPL-3"
+  ],
+  "engineStrict": true
+}

@@ -1,0 +1,30 @@
+{
+
+  "window.title": "👨‍💻👩‍💻 - NGINX-CONFIGURE Project ${separator}${dirty}",
+
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#000",
+    "titleBar.inactiveForeground": "#000000CC",
+    "titleBar.activeBackground": "#1E90FF",
+    "titleBar.inactiveBackground": "#5F9EA0"
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "LICENSE": true,
+    "node_modules": true,
+    ".yarn": true
+  },
+
+  "editor.formatOnSave": false,
+
+  "editor.tabSize": 2, // You can remove it, but not commit-it
+
+  "typescript.format.semicolons": "remove",
+  "javascript.format.semicolons": "remove",
+}
