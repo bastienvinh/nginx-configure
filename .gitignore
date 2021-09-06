@@ -2,3 +2,5 @@
 !.yarn/releases
 node_modules
 yarn.lock
+tools/shml.sh
+.cache

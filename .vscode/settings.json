@@ -5,8 +5,11 @@
   "workbench.colorCustomizations": {
     "titleBar.activeForeground": "#000",
     "titleBar.inactiveForeground": "#000000CC",
-    "titleBar.activeBackground": "#1E90FF",
-    "titleBar.inactiveBackground": "#5F9EA0"
+    "titleBar.activeBackground": "#2c4e47",
+    "titleBar.inactiveBackground": "#5F9EA0",
+
+    "statusBar.background": "#2c4e47",
+    "statusBar.foreground": "#fff"
   },
 
   "files.exclude": {
@@ -18,8 +21,15 @@
     "**/Thumbs.db": true,
     "LICENSE": true,
     "node_modules": true,
-    ".yarn": true
+    ".yarn": true,
+    ".cache": true,
+    "yarn.lock": true
   },
+
+  "npm.autoDetect": "off",
+  "npm.enableRunFromFolder": false,
+  "typescript.check.npmIsInstalled": false,
+  
 
   "editor.formatOnSave": false,
 
@@ -27,4 +37,19 @@
 
   "typescript.format.semicolons": "remove",
   "javascript.format.semicolons": "remove",
+
+  "npm.packageManager": "yarn",
+
+  "deno.enable": true,
+  "deno.unstable": false,
+
+  "json.schemaDownload.enable": true,
+
+  "json.schemas": [
+    {
+      "fileMatch": ["package.json"],
+      "schema": true,
+      "url": "/.vscode/package.schema.json"
+    }
+  ]
 }
