@@ -58,6 +58,9 @@ module.exports = {
           return
         }
 
+        // TODO: Manage security issue with path that is not above the root workspace
+        // Do a comparaison with the estimated path and current path
+
         // Execute default code
         const toDelete = Array.isArray(overrideFiles) && overrideFiles.length ? overrideFiles : defaultFiles
         await shellExecute(isWindows ? executeWindows(toDelete) : executeLinux(toDelete))
